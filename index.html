@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkb Downloader</title>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .header {
+            background-color: #007bff;
+            color: white;
+            padding: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .container {
+            flex: 1;
+            padding: 50px 20px;
+            max-width: 600px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .input-box {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        .btn {
+            padding: 15px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .btn-primary {
+            background-color: #28a745;
+            color: white;
+        }
+        .btn-primary:hover { background-color: #218838; }
+        
+        .btn-premium {
+            background-color: #ffc107;
+            color: black;
+        }
+        .btn-premium:hover { background-color: #e0a800; }
+        
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 15px;
+            margin-top: auto;
+            font-size: 14px;
+        }
+        .ad-banner-space {
+            width: 100%;
+            height: 60px;
+            background-color: #e0e0e0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #888;
+            font-size: 14px;
+            margin-top: 30px;
+            border: 1px dashed #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        Linkb Downloader
+    </div>
+
+    <div class="container">
+        <h2>Download Media from 2000+ Websites</h2>
+        <p>Paste your video or image link below:</p>
+        
+        <input type="text" class="input-box" placeholder="https://instagram.com/..." id="videoLink">
+        
+        <br>
+        
+        <button class="btn btn-primary" onclick="alert('Backend connect hone ke baad ye direct download start karega!')">Download (with Watermark)</button>
+        <button class="btn btn-premium" onclick="showRewardedAd()">Watch Ad to Remove Watermark 🎁</button>
+
+        <div class="ad-banner-space" id="monetag-banner-zone">
+            [Ad Banner Space - Monetag Script Yahan Paste Karein]
+        </div>
+    </div>
+
+    <div class="footer">
+        Developed by Badal Meher | Linkb Downloader &copy; 2026
+    </div>
+
+    <script>
+        function showRewardedAd() {
+            // STEP 3: YAHAN REWARDED AD KA SCRIPT AAYEGA
+            alert('Yahan Monetag ka video ad chalega! Ad khatam hone par bina watermark wala download shuru hoga.');
+        }
+    </script>
+
+</body>
+</html>
